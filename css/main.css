@@ -5635,6 +5635,12 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+body {
+  background-image: url("/assets/doodle2.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  transition: all 450ms; }
+
 #blog {
   background-color: #3498db; }
 
@@ -5661,7 +5667,9 @@ button.close {
     color: #333333 !important; }
   .container .banner {
     padding: 50px;
-    cursor: pointer; }
+    cursor: pointer;
+    border-left: 2px solid #202020;
+    border-right: 2px solid #202020; }
     .container .banner .banner-label {
       font-family: "Oleo Script", cursive;
       font-size: 45px; }
