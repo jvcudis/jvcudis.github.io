@@ -1,7 +1,15 @@
+/* Landing Page Styling */
+
 body {
   background: #FFF;
   font-family: 'IBM Plex Serif', serif;
   margin: 10vw 0 0 25vw;
+}
+
+h4 {
+  padding: 1em 0 0;
+  margin: 0;
+  font-weight: 400;
 }
 
 p {
@@ -11,8 +19,9 @@ p {
   width: 40vw;
 }
 
-h4 {
-  padding: 1em 0 0;
-  margin: 0;
-  font-weight: 400;
+a,
+a:active,
+a:hover,
+a:visited {
+  color: #000;
 }
