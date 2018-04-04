@@ -20,6 +20,42 @@
   font-family: 'IBM Plex Serif';
   src: url("/type/IBMPlexSerif/IBMPlexSerif-Thin.ttf") format("truetype");
   font-weight: normal;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url('/type/DroidSans/DroidSans-Regular.eot');
+  src: url('/type/DroidSans/DroidSans-Regular.eot#iefix') format('embedded-opentype'),
+       url('/type/DroidSans/DroidSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url('/type/DroidSans/DroidSans-Bold.eot');
+  src: url('/type/DroidSans/DroidSans-Bold.eot#iefix') format('embedded-opentype'),
+       url('/type/DroidSans/DroidSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Impact';
+  src: url('/type/Impact/Impact-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url('/type/Bitter/Bitter-Bold.ttf') format('truetype');
+  font-weight: normal;
   font-weight: 700;
   font-style: normal;
 }
