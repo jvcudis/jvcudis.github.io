@@ -1,0 +1,171 @@
+body {
+  background: #fff;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+main {
+  margin: 5vw 10vw;
+}
+
+section {
+  display: flex;
+  padding-bottom: 2em;
+}
+
+section.label {
+  padding-bottom: 0;
+}
+
+section div:first-child {
+  -webkit-flex: 1 0 0;
+  flex: 0.5 0 0;
+}
+
+section div:last-child {
+  -webkit-flex: 2 0 0;
+  flex: 2 0 0;
+  padding-left: 4em;
+}
+
+h4.main-label,
+.label-block > .main-label > h4 {
+  font-family: 'Bitter';
+  font-size: 1.3em;
+  padding: 0;
+  margin: 0;
+}
+
+h4.main-label::after,
+.label-block > .main-label > h4::after {
+  content: '\a —';
+  white-space: pre;
+}
+
+div > .dashed-spacer {
+  border-top: 0.1em dashed #000;
+  margin-top: 3em;
+}
+
+#info-box,
+#info-box > p {
+  font-family: 'Droid Sans', sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#info-box > h1,
+#info-box > h3,
+#info-box > h5,
+#info-box > p {
+  padding: 0;
+  margin: 0;
+}
+
+#info-box > h1 {
+  font-family: 'Impact', monospace;
+  font-size: 5.2em;
+  margin-top: -0.2em;
+}
+
+#info-box > h3 {
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: -0.1em;
+}
+
+#info-box > h5 {
+  font-family: 'Bitter';
+  font-size: 1em;
+  padding: 1em 0;
+  text-decoration: underline;
+}
+
+#info-box > p {
+  font-size: 0.8em;
+  padding: 0.8em 0;
+  text-decoration: underline;
+}
+
+#info-box > p:last-child {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#summary-box > h4 {
+  font-family: 'Bitter';
+  font-size: 1.3em;
+  padding: 0;
+  margin: 0;
+}
+
+#summary-box > p {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+#tech-stack-box {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0;
+}
+
+#tech-stack-box > h5 {
+  text-decoration: underline;
+}
+
+#tech-stack-box > p {
+  font-size: 0.7em;
+  width: 85%;
+  text-align: center;
+}
+
+span.tech-stack::after {
+  content: ' | '
+}
+
+section > div:first-child {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1em;
+}
+
+section > div:first-child > h4 {
+  font-family: 'Bitter';
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+section > div:first-child > span,
+section > div:first-child > a {
+  font-size: 0.8em;
+}
+
+section > div:last-child > h3,
+section > div:last-child > h4,
+section > div:last-child > h5 {
+  padding: 0;
+  margin: 0;
+}
+
+section > div:last-child > h3 {
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+section > div:last-child > h5 {
+  text-decoration: underline;
+}
+
+section > div:last-child > p,
+section > div:last-child > ul {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
