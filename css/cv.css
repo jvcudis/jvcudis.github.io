@@ -41,6 +41,10 @@ header > span {
   color: #FFF;
 }
 
+header > span:last-child {
+  display: none;
+}
+
 footer {
   padding: 2vh 5vh;
   text-align: center;
@@ -88,7 +92,7 @@ h4.main-label::after,
 }
 
 div > .dashed-spacer {
-  border-top: 0.1em dashed #000;
+  border-top: 1px dashed #000;
   margin-top: 3em;
 }
 
@@ -212,13 +216,44 @@ section > div:last-child > ul {
   font-size: 0.9em;
 }
 
-@media (max-width: 400px)  {
-  body {
-    background-color: red;
-  }
-  
+@media (max-width: 500px)  {
   section {
     display: block;
+  }
+
+  header > span {
+    display: none;
+  }
+
+  header > span:last-child {
+    display: block;
+  }
+
+  main {
+    margin: 15vw 10vw;
+  }
+
+  section {
+    display: block;
+  }
+
+  section > div:first-child {
+    padding-top: 1em;
+    border-top: 1px dashed #000;
+  }
+
+  section div:last-child {
+    padding: 2em 0 0 0;
+  }
+
+  #info-box,
+  .label-block > div:first-child {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .label-block > div:last-child {
+    display: none;
   }
 }
 
@@ -226,9 +261,5 @@ section > div:last-child > ul {
   header,
   footer {
     display: none;
-  }
-
-  main {
-    margin: 5vw 10vw;
   }
 }
