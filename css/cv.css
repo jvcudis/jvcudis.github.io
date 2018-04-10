@@ -212,6 +212,16 @@ section > div:last-child > ul {
   font-size: 0.9em;
 }
 
+@media (max-width: 400px)  {
+  body {
+    background-color: red;
+  }
+  
+  section {
+    display: block;
+  }
+}
+
 @media print {
   header,
   footer {
