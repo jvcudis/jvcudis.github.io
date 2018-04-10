@@ -27,8 +27,16 @@ header.scrolled {
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
 }
 
+header > a {
+  padding: 0;
+  margin: -2.8vh 2vh;
+  color: #FFF;
+  font-size: 2.5em;
+}
+
 header > span {
-  padding: 1vh 4vh;
+  margin: -1vh 2vh;
+  font-size: 2em;
 }
 
 footer {
