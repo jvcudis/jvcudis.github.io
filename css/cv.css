@@ -17,7 +17,7 @@ header {
   right: 0;
   top: 0;
   width: 100%;
-  height: 7vh;
+  height: 2.2em;
   border-bottom: 1px solid #3C8DC5;
   background: #3C8DC5;
   z-index: 100;
@@ -29,14 +29,14 @@ header.scrolled {
 
 header > a {
   padding: 0;
-  margin: -2.8vh 2vh;
+  margin: -0.32em 0.2em;
   color: #FFF;
   font-size: 2.5em;
   text-decoration: none;
 }
 
 header > span {
-  margin: -1vh 2vh;
+  margin: -0.15em 0.3em;
   font-size: 2em;
   color: #FFF;
 }
