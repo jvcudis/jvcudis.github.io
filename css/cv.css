@@ -32,11 +32,13 @@ header > a {
   margin: -2.8vh 2vh;
   color: #FFF;
   font-size: 2.5em;
+  text-decoration: none;
 }
 
 header > span {
   margin: -1vh 2vh;
   font-size: 2em;
+  color: #FFF;
 }
 
 footer {
